@@ -149,7 +149,6 @@ const Counter = () => {
                         onClick={() => dispatch({
                             type: 'TOOGLE'
                         })} type="radio" className="radio radio-primary" />
-
                 </div>
                 <input className='btn btn-success btn-sm' type="submit" value="Submit" disabled={!state.term} />
             </form>
