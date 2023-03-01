@@ -1,7 +1,14 @@
-import LongForm from "./pages/LongForm";
+import React from 'react';
+import BigFrom from './Components/BigFrom';
+import Counter from './Components/Counter';
 
-function App() {
-  return <LongForm />;
-}
+const App = () => {
+  return (
+    <div>
+      {/* <BigFrom /> */}
+      <Counter />
+    </div>
+  );
+};
 
 export default App;
